@@ -17,7 +17,6 @@ body {
 h1 {
     margin: 0;
     font-family: 'Junction';
-    text-align: center;
     font-size: 6rem;
 }
 
@@ -55,6 +54,9 @@ svg {
 header {
     color: #fff;
     padding: 100px 0;
+    text-align: center;
+}
+
 .filler {
     background: #fff;
     height: 200px;

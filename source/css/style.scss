@@ -54,14 +54,19 @@ header {
     color: #fff;
     padding: 200px 0;
     z-index: 101;
+    padding: 100px 0;
+.filler {
+    background: #fff;
+    height: 200px;
+    margin-bottom: -100px;
 }
 
 .intro {
     background: #fff;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
+    margin-bottom: -100px;
     position: relative;
     transform: skewY(-4deg);
-    top: 100px;
     z-index: 99;
 }
 
@@ -70,13 +75,14 @@ header {
     background: #B2C8ED;    
     transform: skewY(4deg);
     padding: 200px 0;
+    margin-bottom: -100px;
     z-index: 98;
 }
 
 .school {
     position: relative;
-    top: 100px;
-    padding-bottom: 200px;
+    padding: 200px 0;
+    margin-bottom: -100px;
     transform: skewY(-4deg);
     background: #fff;
     z-index: 97;

@@ -7,6 +7,9 @@ html {
 }
 
 body {
+    background: image-url("blacksea.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'League Gothic';
     font-size: 2rem;
 }
@@ -50,10 +53,7 @@ svg {
 
 /* Sections */
 header {
-    background: image-url("blacksea.jpg");
     color: #fff;
-    padding: 200px 0;
-    z-index: 101;
     padding: 100px 0;
 .filler {
     background: #fff;
@@ -103,6 +103,7 @@ footer {
 	padding: 0;
 	margin: 0;
 	font-size: 1.5rem;
+	color: #fff;
     }
 }
 /* Sections */

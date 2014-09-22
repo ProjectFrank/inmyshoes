@@ -61,6 +61,10 @@ h2 {
     left: 50%;    
 }
 
+.sleep {
+    transform: rotateY(180deg);
+    left: calc(50% - 50px);
+}
 /* Sections */
 header {
     color: #fff;

@@ -33,6 +33,10 @@ h2 {
 }
 
 /* Icon formatting */
+svg {
+    transition: all 0.2s ease;
+}
+
 .down {
     fill: #fff;
 }
@@ -135,8 +139,7 @@ header {
 
 .evening {
     position: relative;
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding: 200px 0;
     background: #B2C8ED;    
 }
 
@@ -166,3 +169,27 @@ footer {
     transform: skewY(4deg);
 }
 
+/* Image formatting */
+
+img {
+    width: 45%;
+    height: auto;
+}
+
+.right {
+    float: right;
+    margin-left: 5%;
+}
+
+.left {
+    float: left;
+    margin-right: 5%;
+}
+
+.leftp {
+    text-align: left;
+}
+
+.rightp {
+    text-align: right;
+}

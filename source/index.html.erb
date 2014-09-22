@@ -55,9 +55,10 @@ title: A Day In Frank's Shoes
 
 
 <div class="morning">
-  <div class="negunskew container">
+  <div class="negunskew container clearfix">
     <h2 id="morning">The Morning</h2>
-    <p>
+    <%= image_tag "gym.jpg", :class => "right" %>
+    <p class="leftp">
       My alarm goes off in the morning at 6:15AM. I get ready, have breakfast, pack lunch, and make my way to the train station on my trusty beater of a bike. I'm not wearing nearly enough and I'm freezing, but it's still early. Coding on the train helps me pass the time. Once I'm downtown, the day's a little warmer and I make my way to the gym for a quick workout. After the gym, I'm refreshed and ready for my day!
     </p>
   </div>
@@ -78,10 +79,11 @@ title: A Day In Frank's Shoes
 </div> <!-- /.morning -->
 
 <div class="school">
-  <div class="container unskew">
+  <div class="container unskew clearfix">
     <h2 id="school">Class</h2>
-    <p>
-      More stairs! Stairs are a huge part of my day. Class starts at 10AM but I like to arrive slightly earlier. In the morning, we usually have a lesson on the topic of the day and work on exercises. After lunch, we learn a bit more and get some project work time until about 5pm. We end the day with a professional development workshop which is really helpful.
+    <%= image_tag "class.jpg", :class => "left" %>
+    <p class="rightp">
+      Class starts at 10AM but I like to arrive slightly earlier. In the morning, we usually have a lesson on the topic of the day and work on exercises. After lunch, we learn a bit more and get some project work time until about 5pm. We end the day with a professional development workshop which is really helpful.
     </p>
   </div>
   <svg class="walk commute" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" height="100px" width="100px">
@@ -101,10 +103,11 @@ title: A Day In Frank's Shoes
 </div> <!-- /.class -->
 
 <div class="evening">
-  <div class="container">
+  <div class="container clearfix">
     <h2 id="evening">The Evening</h2>
-    <p>
-      The morning bit in reverse, minus the gym. I get home at around 8:30pm. It's late, so I'll usually skip dinner unless there's some amazing food at home. I unpack my bag, pack for the next day and it's time to get ready for bed.
+    <%= image_tag "bike.jpg", :class => "right" %>
+    <p class="leftp">
+      The morning bit in reverse, minus the gym. I get home at around 8:30pm. It's late, so I'll usually skip dinner unless there's some amazing food waiting for me at home. I empty out my bag, and pack gym clothes for the next day. I finish the day by stretching and massaging my sore spots, washing up, and coding with whatever time I have left before my 10pm bedtime.
     </p>
   </div>
   <a data-scroll href="#top">

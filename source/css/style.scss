@@ -65,6 +65,22 @@ h2 {
     transform: rotateY(180deg);
     left: calc(50% - 50px);
 }
+
+.rightdown, .leftdown {
+    position: absolute;
+    bottom: 0;
+}
+
+.rightdown {
+    right: 10px;
+    transform: skewY(4deg);
+}
+
+.leftdown {
+    left: 10px;
+    transform: skewY(-4deg);
+}
+
 /* Sections */
 header {
     color: #fff;

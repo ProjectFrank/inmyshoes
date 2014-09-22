@@ -66,6 +66,10 @@ h2 {
     left: calc(50% - 50px);
 }
 
+.sleep:hover {
+    fill: #fff;
+}
+
 .rightdown, .leftdown {
     position: absolute;
     bottom: 0;
@@ -79,6 +83,14 @@ h2 {
 .leftdown {
     left: 10px;
     transform: skewY(-4deg);
+}
+
+.rightdown:hover {
+    fill: #B2C8ED;
+}
+
+.leftdown:hover {
+    fill: #fff;
 }
 
 /* Sections */

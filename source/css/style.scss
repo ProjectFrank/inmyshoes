@@ -32,6 +32,10 @@ h2 {
     border-bottom: 1px solid black;
 }
 
+p {
+    line-height: 2;
+}
+
 /* Icon formatting */
 svg {
     transition: all 0.2s ease;
@@ -175,7 +179,7 @@ footer {
 /* Image formatting */
 
 img {
-    width: 45%;
+    width: 30%;
     height: auto;
 }
 

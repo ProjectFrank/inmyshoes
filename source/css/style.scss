@@ -44,6 +44,7 @@ svg {
 .arrow {
     cursor: pointer;
 }
+
 .down {
     fill: #fff;
 }
@@ -55,24 +56,33 @@ svg {
 .commute {
     position: absolute;
     bottom: 0;
+    transition: all 2s ease-in;
 }
 
 .bike {
     transform: skewY(4deg) rotate(-4deg);
-    right: 50%;
+    right: 10%;
 }
 
 .walk {
-    transform: rotateY(180deg) skewY(-4deg) rotate(4deg);
-    right: 50%;    
+    position: absolute;
+    bottom: -2px;
+    transform: skewY(4deg);
+    right: 10%;
+    width: 83.33px;
+    height: 126px;
+    background-image: image-url("walkingsprite.png");
+    background-position: -83.33px -252px;
+    transition: right 3s linear;
 }
 
 .train {
     transform: rotateY(180deg) skewY(4deg) rotate(-4deg);
-    left: 50%;    
+    left: 10%;    
 }
 
 .sleep {
+    transition: fill 0.5s ease-out;
     transform: rotateY(180deg);
     left: calc(50% - 50px);
 }
@@ -103,6 +113,75 @@ svg {
 
 .leftdown:hover {
     fill: #fff;
+}
+
+/* Icon animation */
+.downhill-left {
+    right: 100%;
+}
+
+.downhill-right {
+    left: 100%;
+}
+
+.walking {
+    transform: rotate(-4deg);    
+    right: 100%;
+    -webkit-animation: walking 1s steps(6) infinite;
+    -moz-animation: walking 1s steps(6) infinite;
+    -o-animation: walking 1s steps(6) infinite;
+    -ms-animation: walking 1s steps(6) infinite;
+    animation: walking 1s steps(6) infinite;
+}
+
+@-webkit-keyframes walking {
+    from {
+	background-position: 0px -126px;
+    }
+
+    to {
+	background-position: -500px -126px;
+    }
+}
+
+@-moz-keyframes walking {
+    from {
+	background-position: 0px -126px;
+    }
+
+    to {
+	background-position: -500px -126px;
+    }
+}
+
+@-ms-keyframes walking {
+    from {
+	background-position: 0px -126px;
+    }
+
+    to {
+	background-position: -500px -126px;
+    }
+}
+
+@-o-keyframes walking {
+    from {
+	background-position: 0px -126px;
+    }
+
+    to {
+	background-position: -500px -126px;
+    }
+}
+
+@keyframes walking {
+    from {
+	background-position: 0px -126px;
+    }
+
+    to {
+	background-position: -500px -126px;
+    }
 }
 
 /* Sections */

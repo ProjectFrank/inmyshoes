@@ -117,16 +117,16 @@ svg {
 
 /* Icon animation */
 .downhill-left {
-    right: 100%;
+    right: 100% !important;
 }
 
 .downhill-right {
-    left: 100%;
+    left: 100% !important;
 }
 
 .walking {
     transform: rotate(-4deg);    
-    right: 100%;
+    right: 100% !important;
     -webkit-animation: walking 0.7s steps(6) infinite;
     -moz-animation: walking 0.7s steps(6) infinite;
     -o-animation: walking 0.7s steps(6) infinite;
@@ -282,4 +282,19 @@ img {
 
 .rightp {
     text-align: right;
+}
+
+@media(max-width: 640px) {
+    html {
+	font-size: 10px;
+    }
+    .bike {
+	right: 25%;
+    }
+    .train {
+	left: 25%;
+    }
+    .walk {
+	right: 25%;
+    }
 }

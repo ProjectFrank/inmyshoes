@@ -41,6 +41,9 @@ svg {
     transition: all 0.2s ease;
 }
 
+.arrow {
+    cursor: pointer;
+}
 .down {
     fill: #fff;
 }
@@ -76,6 +79,7 @@ svg {
 
 .sleep:hover {
     fill: #fff;
+    cursor: pointer;
 }
 
 .rightdown, .leftdown {

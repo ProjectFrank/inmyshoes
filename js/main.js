@@ -26,7 +26,7 @@
 	});
 
 	$school.on("click", "svg.arrow", function() {
-	    $walk.addClass("walking");
+	    $walk.toggleClass("walking");
 	    setTimeout(function() {
 		smoothScroll.animateScroll(null, "#evening");
 	    }, 3000);

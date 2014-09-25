@@ -118,16 +118,16 @@ svg {
 /* Icon animation */
 /* line 119, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .downhill-left {
-  right: 100%; }
+  right: 100% !important; }
 
 /* line 123, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .downhill-right {
-  left: 100%; }
+  left: 100% !important; }
 
 /* line 127, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .walking {
   transform: rotate(-4deg);
-  right: 100%;
+  right: 100% !important;
   -webkit-animation: walking 0.7s steps(6) infinite;
   -moz-animation: walking 0.7s steps(6) infinite;
   -o-animation: walking 0.7s steps(6) infinite;
@@ -257,3 +257,20 @@ img {
 /* line 283, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .rightp {
   text-align: right; }
+
+@media (max-width: 640px) {
+  /* line 288, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+  html {
+    font-size: 10px; }
+
+  /* line 291, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+  .bike {
+    right: 25%; }
+
+  /* line 294, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+  .train {
+    left: 25%; }
+
+  /* line 297, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+  .walk {
+    right: 25%; } }

@@ -127,11 +127,11 @@ svg {
 .walking {
     transform: rotate(-4deg);    
     right: 100%;
-    -webkit-animation: walking 1s steps(6) infinite;
-    -moz-animation: walking 1s steps(6) infinite;
-    -o-animation: walking 1s steps(6) infinite;
-    -ms-animation: walking 1s steps(6) infinite;
-    animation: walking 1s steps(6) infinite;
+    -webkit-animation: walking 0.7s steps(6) infinite;
+    -moz-animation: walking 0.7s steps(6) infinite;
+    -o-animation: walking 0.7s steps(6) infinite;
+    -ms-animation: walking 0.7s steps(6) infinite;
+    animation: walking 0.7s steps(6) infinite;
 }
 
 @-webkit-keyframes walking {

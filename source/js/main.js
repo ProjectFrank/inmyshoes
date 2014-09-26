@@ -33,10 +33,8 @@
 	});
 
 	$evening.on("click", "svg", function() {
-	    $walk.removeClass("walking");
-	    $train.attr("class", "train commute");
-	    $bike.attr("class", "bike commute");
 	    smoothScroll.animateScroll(null, "#top");
+	});
 
 	// Returns true if element is visible in viewport
 	function isScrolledIntoView(elem) {

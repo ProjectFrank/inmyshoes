@@ -61,12 +61,12 @@ svg {
 .commute {
     position: absolute;
     bottom: 0;
-    transition: all 2s ease-in;
 }
 
 .bike {
     transform: skewY(4deg) rotate(-4deg);
     right: 10%;
+    transition: all 2s ease-in;
 }
 
 .walk {
@@ -78,12 +78,13 @@ svg {
     height: 126px;
     background-image: image-url("walkingsprite.png");
     background-position: -83.33px -252px;
-    transition: right 3s linear;
+    transition: right 5s linear;
 }
 
 .train {
     transform: rotateY(180deg) skewY(4deg) rotate(-4deg);
-    left: 10%;    
+    left: 10%;
+    transition: all 1.5s ease-in;
 }
 
 .sleep {
@@ -299,12 +300,15 @@ img {
 	font-size: 10px;
     }
     .bike {
+	transition: all 1s ease-in;
 	right: 25%;
     }
     .train {
+	transition: all 1.5s ease-in;
 	left: 25%;
     }
     .walk {
+	transition: all 2.5s linear;
 	right: 25%;
     }
 }

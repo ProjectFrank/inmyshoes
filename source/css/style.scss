@@ -129,6 +129,10 @@ svg {
     left: 100% !important;
 }
 
+.no-transition {
+    transition-duration: 0s !important;
+}
+
 .walking {
     transform: rotate(-4deg);    
     right: 100% !important;

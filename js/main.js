@@ -24,7 +24,7 @@
 	    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
 	}
 
-	$(window).on("scroll", function () {	    
+	$(window).on("scroll", function() {	    
 	    // Activate animation when next section scrolls into view
 	    if (isScrolledIntoView("#morning")) {
 		$bike.attr("class", "bike commute downhill-left");

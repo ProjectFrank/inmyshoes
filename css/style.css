@@ -8,68 +8,64 @@ html {
 
 /* line 9, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 body {
-  background: url("../img/shoes.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
   font-family: 'Droid Serif';
   font-size: 1.5rem; }
 
-/* line 18, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 14, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 section {
   overflow: hidden; }
 
-/* line 22, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 18, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 a {
   color: #B2C8ED;
   text-decoration: none; }
 
-/* line 27, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 23, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 h1 {
   margin: 0;
   font-family: 'Junction';
   font-size: 6rem; }
 
-/* line 33, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 29, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 h2 {
   font-family: 'Abraham';
   text-transform: uppercase;
   font-size: 3rem;
   border-bottom: 1px solid black; }
 
-/* line 40, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 36, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 p {
   line-height: 2; }
 
 /* Icon formatting */
-/* line 45, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 41, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 svg {
   transition: all 0.2s ease; }
 
-/* line 49, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 45, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .arrow {
   cursor: pointer; }
 
-/* line 53, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 49, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .down {
   fill: #fff; }
 
-/* line 57, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 53, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .down:hover {
   fill: #B2C8ED; }
 
-/* line 61, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 57, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .commute {
   position: absolute;
   bottom: 0; }
 
-/* line 66, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 62, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .bike {
   transform: skewY(4deg) rotate(-4deg);
   right: 10%;
   transition: all 2s ease-in; }
 
-/* line 72, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 68, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .walk {
   position: absolute;
   bottom: -2px;
@@ -81,61 +77,61 @@ svg {
   background-position: -83.33px -252px;
   transition: right 5s linear; }
 
-/* line 84, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 80, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .train {
   transform: rotateY(180deg) skewY(4deg) rotate(-4deg);
   left: 10%;
   transition: all 1.5s ease-in; }
 
-/* line 90, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 86, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .sleep {
   bottom: -13px;
   transition: fill 0.5s ease-out;
   transform: rotateY(180deg);
   left: calc(50% - 50px); }
 
-/* line 97, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 93, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .sleep:hover {
   fill: #fff;
   cursor: pointer; }
 
-/* line 102, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 98, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .rightdown, .leftdown {
   position: absolute;
   bottom: 0; }
 
-/* line 107, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 103, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .rightdown {
   right: 10px;
   transform: skewY(4deg); }
 
-/* line 112, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 108, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .leftdown {
   left: 10px;
   transform: skewY(-4deg); }
 
-/* line 117, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 113, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .rightdown:hover {
   fill: #B2C8ED; }
 
-/* line 121, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 117, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .leftdown:hover {
   fill: #fff; }
 
 /* Icon animation */
-/* line 126, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 122, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .downhill-left {
   right: 100% !important; }
 
-/* line 130, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 126, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .downhill-right {
   left: 100% !important; }
 
-/* line 134, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 130, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .no-transition {
   transition-duration: 0s !important; }
 
-/* line 138, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 134, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 .walking {
   transform: rotate(-4deg);
   right: 100% !important;
@@ -171,8 +167,12 @@ svg {
   to {
     background-position: -500px -126px; } }
 /* Sections */
-/* line 199, /Users/frankwang/src/inmyshoes/source/css/style.scss */
+/* line 195, /Users/frankwang/src/inmyshoes/source/css/style.scss */
 header {
+  background: url("../img/shoes.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   color: #fff;
   padding: 8% 0;
   text-align: center; }
